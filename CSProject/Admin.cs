@@ -24,5 +24,10 @@ namespace CSProject
             }
         }
 
+        public override string ToString()
+        {
+            return string.Format("[Admin: Overtime={0}]", Overtime);
+        }
+
     }
 }
